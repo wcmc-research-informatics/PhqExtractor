@@ -1,0 +1,4 @@
+\b(phq).{0,3}9\b
+\b(patient\s*)?health\s*questi(ons|onnaire)\s*((-|\s)?9)?
+\bphq(?=(\s*|=|:)\d{1,2}(\/27))
+\bphq(?=\s*(is|at|on|in)\s*\d{1,2}(\/27))

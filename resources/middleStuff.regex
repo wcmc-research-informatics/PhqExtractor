@@ -1,0 +1,20 @@
+(\b(\s+|or|of|is|was|were|mild(ly)?|for|to|be|by|in|bein|on|are|at|the|a|visual(y)|normal|estimat(e|ed|es)|appears?|show(s|ed)?|reveal(s|ed)?|seen|done|also|but|has|have|had|overall|calculate(s|d)|assumed|quantified|range|increased?|decreased?|reduced?|markedly|depression (screen|score)|measured|score:?\s*(of|was|is|today|today at|out of)?)\b)+
+(-|:|=| |%|\(|\|)+
+(\.){3,}
+(\s-\s)
+(\sis\s)
+(\s*(>|<)\s*)
+(\s*(-->|--&gt;)\s*)
+((done|measured) today (is|was))
+(on initial)
+(\s*today\s*=?\s*)
+( done mod score - )
+( score today of )
+(, score (is|of|on)\s*)
+(\s*scrore (=|:|-)\s*)
+(\s*completed\,\s*)
+(\s*(of|with)\s*)
+(\s*on a repeat\s*)
+(\s*(-|:|=)\s*)
+(\s*scored?\s*on\s*\d+(\/|-|:)\d+(\/|-|:)\d+\s*(is|was|at|of)\s*)
+# was in the range of
