@@ -19,8 +19,8 @@ To use PhqExtractor :
        4.1.1 FileCollectionReaderConfig.groovy  -- Enter the path to input directory to read simple text files. The files need to have .txt extention. 
       
        4.1.2 BatchDatabaseCollectionReader.groovy -- Enter the database engine, database name, and input query. Update the batch parameters. If you have only one batch, change the ending index to be less than the batch size. If you are using this reader for batch reads, add sequential numbering column called "RowNo" to your input table. The tags {min} and {max} will be automatically replaced with starting and ending RowNo for each batch until edning RowNo reaches the last endingIndex.
-          - SQLDatabaseCollectionReader.groovy -- This is custom reader (BatchDatabaseCollectionReader.groovy) specifically for SQL database.
-          - MySQLDatabaseCollectionReader.groovy -- This is a custom reader (BatchDatabaseCollectionReader.groovy) specifically for MySQL database
+       - SQLDatabaseCollectionReader.groovy -- This is custom reader (BatchDatabaseCollectionReader.groovy) specifically for SQL database.
+       - MySQLDatabaseCollectionReader.groovy -- This is a custom reader (BatchDatabaseCollectionReader.groovy) specifically for MySQL database
        
        4.1.3 SQLServerPagedDatabaseCollectionReaderConfig.groovy - Enter the database engine, database name, and input query. Make sure the input query ends with "order by" clause. The query will be automatically transformed for SQL Server fetching new batch with offset row number. This approach becomes very slow when the number of records reaches over 2.5M records. MS SQL Server queries become very slow at that point.
       
@@ -33,9 +33,8 @@ To use PhqExtractor :
        4.2.3 CsvListenerConfig.groovy - this is an example of a custom CSV listener
       
        4.2.4 DatabaseListenerConfig.groovy - this is an example of a custom database listener.
-       
-          - SQLDatabaseListenerConfig.groovy - this is an example of a custom database listener (DatabaseListenerConfig.groovy) for SQL database.
-          - MySQLDatabaseListenerConfig.groovy - this is an example of a custom database listener (DatabaseListenerConfig.groovy) for MySQL database.
+       - SQLDatabaseListenerConfig.groovy - this is an example of a custom database listener (DatabaseListenerConfig.groovy) for SQL database.
+       - MySQLDatabaseListenerConfig.groovy - this is an example of a custom database listener (DatabaseListenerConfig.groovy) for MySQL database.
            
   5. Use runService.sh or runService.bat script to start the service.
   
