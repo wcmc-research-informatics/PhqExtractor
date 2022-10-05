@@ -8,15 +8,9 @@ String url = "jdbc:mysql://<server>:3306/psychiatric?autoReconnect=true&useSSL=f
 String driver = "com.mysql.jdbc.Driver"
 String dbUser = "<usr>"
 String dbPwd = "<paswd>"
-String dbsName = "psychiatric"
-String tableName = "phq_output"
+String dbsName = "<db>"
+String tableName = "<table>"
 
-// String url = "jdbc:sqlserver://vits-archsqlp02.med.cornell.edu;databasename=DM_NLP;integratedSecurity=false"
-// String driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver"
-// String dbUser = "usr_dm_nlp"
-// String dbPwd = "us3r_83_Nlp"
-// String dbsName = "DM_NLP"
-// String tableName = "dbo.depression_phq_output"
 
 incomingTypes = "gov.va.vinci.ef.types.Relation"
 // incomingTypes = "gov.va.vinci.ef.types.ContextWindow"
