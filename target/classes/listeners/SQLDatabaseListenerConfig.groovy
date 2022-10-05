@@ -8,7 +8,7 @@ String url = "jdbc:sqlserver://<server>;databasename=DM_NLP;integratedSecurity=f
 String driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver"
 String dbUser = "<usr>"
 String dbPwd = "<paswd>"
-String dbsName = "DM_NLP"
+String dbsName = "<db>"
 String tableName = "<db_name>"
 
 incomingTypes = "gov.va.vinci.ef.types.Relation"
