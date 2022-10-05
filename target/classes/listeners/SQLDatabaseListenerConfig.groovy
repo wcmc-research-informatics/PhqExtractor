@@ -4,12 +4,12 @@ import gov.va.vinci.ef.listeners.BasicDatabaseListener
 
 int batchSize = 1000
 
-String url = "jdbc:sqlserver://vits-archsqlp02.med.cornell.edu;databasename=DM_NLP;integratedSecurity=false"
+String url = "jdbc:sqlserver://<server>;databasename=DM_NLP;integratedSecurity=false"
 String driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver"
-String dbUser = "usr_dm_nlp"
-String dbPwd = "us3r_83_Nlp"
+String dbUser = "<usr>"
+String dbPwd = "<paswd>"
 String dbsName = "DM_NLP"
-String tableName = "dbo.DEPRESSION_PHQ_EVAL_LEO_OUTPUT"
+String tableName = "<db_name>"
 
 incomingTypes = "gov.va.vinci.ef.types.Relation"
 // incomingTypes = "gov.va.vinci.ef.types.ContextWindow"
