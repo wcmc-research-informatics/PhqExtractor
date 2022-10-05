@@ -3,9 +3,9 @@ package readers
 import gov.va.vinci.leo.cr.BatchDatabaseCollectionReader;
 
 String driver = "com.mysql.jdbc.Driver"
-String url = "jdbc:mysql://localhost:3306/psychiatric?autoReconnect=true&useSSL=false"
-String username="psych_user";
-String password="psych_user";
+String url = "jdbc:mysql://<server>?autoReconnect=true&useSSL=false"
+String username="<user>";
+String password="<paswd>";
 
 // String query = "SELECT ID, NOTE_TEXT FROM psychiatric.depression_phq_eval"
 // String query = "SELECT ID, NOTE_TEXT FROM psychiatric.depression_phq_eval where LeoStatus= 'FP'"
