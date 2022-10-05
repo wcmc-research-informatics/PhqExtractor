@@ -4,12 +4,12 @@ import gov.va.vinci.ef.listeners.BasicDatabaseListener
 
 int batchSize = 1000
 
-String url = "jdbc:mysql://localhost:3306/psychiatric?autoReconnect=true&useSSL=false"
+String url = "jdbc:mysql://<server>:3306/psychiatric?autoReconnect=true&useSSL=false"
 String driver = "com.mysql.jdbc.Driver"
-String dbUser = "psych_user"
-String dbPwd = "psych_user"
-String dbsName = "psychiatric"
-String tableName = "phq_output"
+String dbUser = "<usr>"
+String dbPwd = "<pwd>"
+String dbsName = "<db>"
+String tableName = "<table>"
 
 incomingTypes = "gov.va.vinci.ef.types.Relation"
 // incomingTypes = "gov.va.vinci.ef.types.ContextWindow"
