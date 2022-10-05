@@ -4,10 +4,10 @@ import gov.va.vinci.ef.listeners.BasicDatabaseListener
 
 int batchSize = 1000
 
-String url = "jdbc:mysql://localhost:3306/psychiatric?autoReconnect=true&useSSL=false"
+String url = "jdbc:mysql://<server>:3306/psychiatric?autoReconnect=true&useSSL=false"
 String driver = "com.mysql.jdbc.Driver"
-String dbUser = "psych_user"
-String dbPwd = "psych_user"
+String dbUser = "<usr>"
+String dbPwd = "<paswd>"
 String dbsName = "psychiatric"
 String tableName = "phq_output"
 
