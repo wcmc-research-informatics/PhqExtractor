@@ -4,12 +4,12 @@ import gov.va.vinci.ef.listeners.BasicDatabaseListener
 
 int batchSize = 1000
 
-String url = "jdbc:sqlserver://<server>;databasename=DM_NLP;integratedSecurity=false"
+String url = "jdbc:sqlserver://<server>;databasename=<db>;integratedSecurity=false"
 String driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver"
 String dbUser = "<usr>"
 String dbPwd = "<paswd>"
 String dbsName = "<db>"
-String tableName = "<db_name>"
+String tableName = "<table>"
 
 incomingTypes = "gov.va.vinci.ef.types.Relation"
 // incomingTypes = "gov.va.vinci.ef.types.ContextWindow"
