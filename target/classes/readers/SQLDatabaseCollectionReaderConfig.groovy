@@ -3,7 +3,7 @@ package readers
 import gov.va.vinci.leo.cr.BatchDatabaseCollectionReader;
 
 String driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver"
-String url = "jdbc:sqlserver://<server>;databasename=DM_NLP;integratedSecurity=false"
+String url = "jdbc:sqlserver://<server>;databasename=<db>;integratedSecurity=false"
 String username="<user>";
 String password="<paswd>";
 String query = "<query>"
