@@ -7,12 +7,6 @@ String url = "jdbc:mysql://<server>?autoReconnect=true&useSSL=false"
 String username="<user>";
 String password="<paswd>";
 
-// String query = "SELECT ID, NOTE_TEXT FROM psychiatric.depression_phq_eval"
-// String query = "SELECT ID, NOTE_TEXT FROM psychiatric.depression_phq_eval where LeoStatus= 'FP'"
-// String query = "SELECT ID, NOTE_TEXT FROM psychiatric.depression_phq_eval where ID = 140 "
-// String query = "SELECT ID, NOTE_TEXT FROM psychiatric.test_notes where id in (6)"
-// String query = "SELECT ID, NOTE_TEXT FROM psychiatric.test_notes"
-
 String query = "SELECT ID, NOTE_TEXT FROM psychiatric.phq_test"
 
 int startingIndex = 0;
